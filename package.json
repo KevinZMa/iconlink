@@ -1,0 +1,48 @@
+{
+    "name": "iconlink",
+    "version": "0.0.0",
+    "description": "A Node.js CLI application that sets custom icons for folders based on a YAML configuration file.",
+    "author": "KevinZMa",
+    "main": "./index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js",
+        "format": "prettier --write \"**/*.{js,json,md,toml}\""
+    },
+    "keywords": [
+        "icon",
+        "folder",
+        "config",
+        "cli",
+        "tool"
+    ],
+    "license": "MIT",
+    "bin": {
+        "iconlink": "./index.js"
+    },
+    "files": [
+        "index.js",
+        "package.json",
+        "README.md",
+        "LICENSE"
+    ],
+    "dependencies": {
+        "enquirer": "^2.3.6",
+        "tempy": "^3.0.0",
+        "yaml": "^2.2.1",
+        "yargs": "^17.7.1"
+    },
+    "devDependencies": {
+        "@types/node": "^18.7.15",
+        "@types/yargs": "^17.0.24",
+        "prettier": "^2.8.7"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KevinZMa/iconlink.git"
+    },
+    "bugs": {
+        "url": "https://github.com/KevinZMa/iconlink/issues"
+    },
+    "homepage": "https://github.com/KevinZMa/iconlink#readme"
+}
