@@ -1,6 +1,6 @@
 {
     "name": "iconlink",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "A Node.js CLI application that sets custom icons for folders based on a YAML configuration file.",
     "author": "KevinZMa",
     "main": "./index.js",
